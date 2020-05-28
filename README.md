@@ -1,5 +1,6 @@
 # .doom.d
 
+```
 my custom configs in [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
 # Installation
@@ -10,6 +11,17 @@ note that the latest changes of doom is on the **develop** branch
 git clone https://github.com/hlissner/doom-emacs.git -b develop ~/.emacs.d
 git clone git@github.com:kimochg/.doom.d.git ~/.doom.d
 ~/.emacs.d/bin/doom quickstart
+```
+
+# fonts
+
+```
+brew tap homebrew/cask-fonts
+brew cask install \
+  font-fira-code \
+  font-fira-mono \
+  font-fira-mono-for-powerline \
+  font-fira-sans
 ```
 
 # Main
