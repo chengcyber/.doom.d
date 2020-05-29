@@ -24,9 +24,15 @@ brew cask install \
   font-fira-sans
 ```
 
+# Doom Config
+
+- `SPC h d h` open doom documentation
+- `SPC f p` edit ~/.doom.d config files
+
 # Main
 
 - `SPC :` same as `M-x`
+- `M-S-!`: run shell command
 - `g c c` comment code
 
 # Description
