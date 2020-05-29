@@ -1,6 +1,5 @@
 # .doom.d
 
-```
 my custom configs in [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
 # Installation
