@@ -12,9 +12,26 @@ git clone git@github.com:kimochg/.doom.d.git ~/.doom.d
 ~/.emacs.d/bin/doom quickstart
 ```
 
+# fonts
+
+```
+brew tap homebrew/cask-fonts
+brew cask install \
+  font-fira-code \
+  font-fira-mono \
+  font-fira-mono-for-powerline \
+  font-fira-sans
+```
+
+# Doom Config
+
+- `SPC h d h` open doom documentation
+- `SPC f p` edit ~/.doom.d config files
+
 # Main
 
 - `SPC :` same as `M-x`
+- `M-S-!`: run shell command
 - `g c c` comment code
 
 # Description
