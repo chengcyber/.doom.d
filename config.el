@@ -35,7 +35,6 @@
 ;; numbers are disabled. For relative line numbers, set this to `relative'.
 (setq display-line-numbers-type t)
 
-;; Place your private configuration here
 
 ;; Here are some additional functions/macros that could help you configure Doom:
 ;;
@@ -54,4 +53,4 @@
 ;; You can also try 'gd' (or 'C-c g d') to jump to their definition and see how
 ;; they are implemented.
 
-(advice-add 'magit-process-insert-section :before #'auto-display-magit-process-buffer)
+(setq doom-font (font-spec :family "Fira Mono for Powerline" :size 16))
